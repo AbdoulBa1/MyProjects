@@ -1,33 +1,53 @@
-## CMU Graphics
+Constellation Viewer (cmu-graphics)
 
-CMU Graphics is a persistent-object graphics package geared towards beginner computer science students. CMU Graphics and its desktop version are maintained by [CMU CS Academy](https://academy.cs.cmu.edu/), a Carnegie Mellon University project which develops free-to-use middle and high school computer science curriculum.
+This is a simple interactive Python program that draws a moving constellation on a dynamic, starry background using the cmu-graphics library.
 
-### Creating Your Repl
+About CMU Graphics
 
-Click "Use Template" to create a new repl with CMU Graphics installed. If you're already in a repl, keep reading!
+CMU Graphics is a persistent-object graphics package geared towards beginner computer science students. 
+To write animations using CMU Graphics, you start with the line from cmu_graphics import * and end the file with cmu_graphics.run(). You can find more details about how to use the graphics framework here on their documentation page.
 
-### Getting Started
+Prerequisites
 
-To write animations using CMU Graphics, include the following line at the top of your Python file:
+To run this project, you need the following installed on your system:
 
-```python3
+Python 3.x
+
+Visual Studio Code (VS Code) (with Jupyter support if you are using .ipynb files)
+
+Setup and Installation
+
+This project requires the third-party graphics library cmu-graphics.
+
+Step 1: Install the Library
+
+Open your terminal or VS Code integrated terminal (Terminal > New Terminal) and run the following command to install the required package:
+
+pip install cmu-graphics
+
+
+(If the command fails, try pip3 install cmu-graphics.)
+
+Step 2: Prepare Your File (main.ipynb)
+
+Since your file is a Jupyter Notebook (main.ipynb), you should paste all the Python code into a single code cell within that notebook.
+
+Ensure the code is pasted entirely, from from cmu_graphics import * down to cmu_graphics.run().
+
 from cmu_graphics import *
-```
-
-At the end of your Python file, add this line:
-
-```python3
+# ... (rest of the constellation code)
 cmu_graphics.run()
-```
 
-From there, the syntax for using the graphics package is identical to the browser-based version of the framework. You can find more details about how to use the graphics framework here on our [documentation page](https://academy.cs.cmu.edu/docs).
 
-### Need Some Inspiration?
+Step 3: Run the Program in VS Code
 
-This template includes 11 different sample programs under the `samples` folder for you to explore. To run a file:
+To run the program in your Jupyter Notebook (main.ipynb), you need to execute the code cell:
 
-1. Copy the code from a sample file into `main.py`
-2. Click "Run" to start the animation.
-3. Follow the instructions at the top of the file
+Open your main.ipynb file in VS Code.
 
+Navigate to the code cell containing your program.
+
+Click the Run Cell button (a small play triangle  to the left of the cell's In [ ]: text).
+
+A new window should pop up displaying the constellation and playing the background music!
 ### Have fun!
