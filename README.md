@@ -1,1 +1,5 @@
-## My Computer Science Projects
+# My Computer Science Projects
+## Ringtone Sound Project
+## Big Dipper Animination Project
+## Wordle Game Project
+
